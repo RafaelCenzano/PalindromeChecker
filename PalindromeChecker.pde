@@ -16,8 +16,8 @@ public void setup()
 }
 public boolean palindrome(String word)
 {
-  //your code here
-  return false;
+  String reversedWord = reverse(word);
+  return word.equals(reversedWord);
 }
 public String reverse(String str)
 {
